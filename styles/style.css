@@ -81,7 +81,7 @@ main {
   align-items: center;
   margin: 16px 24px;
   max-width: 350px;
-  min-height: 370px;
+  min-height: 400px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   border-radius: 8px;
@@ -94,43 +94,46 @@ main {
   box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.2);
 }
 
-.post-image,
-.post-image img {
-  height: 120px;
-  width: 350px;
+.post-image {
+  height: 150px;
+  width: 348px;
+  border-radius: 8px 8px 0px 0x;
 }
 
 .post-content {
   padding: 12px;
   background-color: #fff;
-  height: 250px;
   border-radius: 8px;
 }
 
 .post-content .post-title {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 60px;
 }
 
 .post-content .post-title h2 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
 }
 .post-content .post-text {
   overflow: hidden;
-  height: 120px;
+  height: 180px;
+  width: 300px;
 }
 
 .post-content .post-text p {
   font-size: 14px;
   font-weight: 300;
   color: #767676;
+  text-align: left;
 }
 
 .post-content .post-date {
   display: flex;
   justify-content: flex-end;
   margin-top: 16px;
+  height: 30px;
 }
 .post-content .post-date p {
   font-size: 12px;
@@ -151,8 +154,8 @@ footer {
 .add-post {
   cursor: pointer;
   position: fixed;
-  bottom: 140px;
-  right: 40px;
+  bottom: 250px;
+  right: 60px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
